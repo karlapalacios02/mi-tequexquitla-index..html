@@ -1,0 +1,79 @@
+*{       /*posisiona el primer elemento en la posision 0,0*/
+padding: 0;
+margin: 0;
+}
+body{
+width: 100%;                   /*ancho del body*/
+background:#ffffff;
+}
+header {
+background: #000000;
+width: 100%;
+position: fixed;              /*fija un elemento en la pagina*/
+z-index: 1;                  /*superpone un elemento*/
+}
+nav {
+width: 100%;
+margin: auto;                /*margen automatico en todas la posisiones*/
+overflow:hidden;
+display: inline-block;      /*coloca los elementos en una linea de bloques*/
+text-align:center;          /*centra el texto*/
+}
+nav ul {
+list-style: none;           /*oculta los puntos de los items de una lista*/
+display: flex;             /*posiciona lo elementos en una sola linea*/
+justify-content: center;   /*alinea elementos al centro*/
+}
+nav ul li{
+float: Left;               /*coloca un elemento a la izquierda*/
+font-family: Arial, sans-serif;    /*tipo de letra*/
+font-size: 13px;           /*tamaño de letra*/
+font-weight:bold;        /*letras en negritas*/
+}
+
+nav ul li a {
+display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+padding: 25px;          /*contorno tipo boton*/
+color: #fff;
+text-decoration: none; /*Oculta el subrayado de un hipervinculo*/
+border: 0px solid #3A3A48; ;
+}
+nav ul li:hover { /*Evento hover se realiza al colocarse sobre un hiperviculos*/
+background: #37387A;
+text-transform: uppercase;    /*efecto convierte el texto en Mayusculas*/
+transition: all 1.5s;        /*intervalo de transaccion del efecto*/
+transform: scale(1.2);      /*efecto de aumentar el tamaño de la letra*/
+
+}
+
+section {
+padding-top: 80px;      /*espacio superior*/
+width: 90%;
+justify-content: center;
+margin-left: 5%;         /*margen iquierdo*/
+}
+#imagen1{               /*id definido en html*/
+height: 600px;
+margin-bottom: 35px;     /*margen inferior*/
+}
+.centrar{ text-align:center; }     /*clase definida en html*/
+P {
+margin-top: 20px;
+margin-bottom: 40px;
+text-align: justify;
+font-family: Arial, sans-serif;
+font-size: 15px;
+
+}
+footer {
+position: fixed;
+width: 100%;
+bottom: 0;      /*espacio inferior*/
+padding: 10px 0px 10px 0px;
+background-color: #333;
+text-align: center;
+
+}
+.aaa
+ {
+margin-left:50%;}

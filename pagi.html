@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="utf-8">
+<LINK REL="stylesheet" TYPE="text/css" HREF="mfijo.css">
+
+<title>Menu Fijo</title>
+</head>
+
+<body>
+<header>
+
+<center>
+<nav>
+<ul>
+
+
+<li><a href="pgfinal.html">INICIO</a></li>
+<li><a href="pagi.html">MI TEQUEXQUITLA</a></li>
+<li><a href="boton.html">TURISMO</a></li>
+<li><a href="foto.html">ATRACCIONES</a></li>
+<li><a href="ubicacion.html">UBICACIÓN</a></li>
+
+</ul>
+</nav>
+</header>
+<head><br></br><br></br>
+  <title>Turismo Interactivo</title>
+    <style> 
+.btn{
+background-color:#f6baf2;
+color:#7926d3;
+padding:15px 20px;
+border:dashed;
+cursor:pointer;
+transition:background-color 0.3s ease;
+}
+.btn:hover{
+background-color:#ff0099;
+}
+.btn.move {
+  position: relative; /* Posición relativa */
+  animation: moveButton 2s infinite alternate; /* Animación de movimiento */
+}
+
+@keyframes moveBtn {
+  0% { left: 0; } /* Posición inicial */
+  50% { left: 200px; } /* Posición intermedia */
+  100% { left: 0; } /* Posición final */
+}
+    </style>
+</head>
+<center>
+  
+    <br>
+    <h2>VEN Y DESCUBRE</h2>
+
+    <br>
+    <button class="btn" onclick="mostrarPlayas()">¿QUÉ ES TEQUEXQUITLA?</button>
+    <button class="btn" onclick="mostrarMontañas()">NÚMERO DE HABITANTES</button>
+    <button class="btn" onclick="mostrarCiudades()"> ORIGEN DE TEQUEXQUITLA</button>
+    
+    <div id="contenido"></div>
+    
+    <script>
+        function mostrarPlayas() {
+            document.getElementById("contenido").innerHTML ="<h3><br><br>¿QUÉ ES TEQUEXQUITLA?<br></h3><p><center>Es uno de los 60 municipios que conforman a Tlaxcala ubicado al lado oriente .</center></p>";
+        }
+        
+        function mostrarMontañas() {
+            document.getElementById("contenido").innerHTML = "<h3><br><br>NÚMERO DE HABITANTES</h3><p><center><br>La población total de El Carmen Tequexquitla en 2020 fue 17,332 habitantes, siendo 51.5% mujeres y 48.5% hombres.</center></p>";
+        }
+        
+        function mostrarCiudades() {
+            document.getElementById("contenido").innerHTML = "<h3><br><br>ORIGEN DE TEQUEXQUITLA</h3><p><center><br>Su nombre proviene del nahuatl la primera palabra (tequex es lugar de tequexquite) y (quitla en abundacia.)</center></p>";
+        }
+    
+</script>
+<center>
+
+<style>
+    
+     
+.button{
+background-color:#f6baf2;
+color:#7926d3;
+padding:15px 20px;
+border:dashed;
+cursor:pointer;
+transition:background-color 0.3s ease;
+}
+.button:hover{
+background-color:#ff0099;
+}
+
+
+
+.img-container {
+  
+position: relative;
+  
+display: inline-block;
+
+}
+
+
+
+
+
+img {
+  border-radius: 100px;
+}
+img {
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+}
+</style>
+
+<section>	
+
+<div class="img-container">
+ 
+
+<img src="img22.jpg" alt="Imagen iratoria"id= "rotating-image">
+  
+<div class="button-container">
+    <a href="carmen actualizado.html" class="button">
+EL CARMEN TEQUEXQUITLA</a><br><br><br>
+
+<center>
+<div class="img-container">
+  
+<img src="a5.jpg" alt="Imagen iratoria"id= "rotating-image">
+  
+<div class="button-container">
+    
+<a href="carmen antiguo.html"
+ class="button">HISTORIA DE TEQUEXQUITLA</a><br><br><br><br><br><br><br><br><br><br><br>
+
+<br></br><br></br>
+</div></div>
+</div></div>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+<footer>
+
+Derechos Reservados  mi tequexquitla 2024.
+</footer>
+<style>
+    footer {
+position: fixed;
+width: 100%;
+right: 0;
+bottom: 0;
+left: 0;
+padding: 10px 0px 
+10px 0px;
+background-color: #edacf4a2;
+text-align: center;
+}
+</style>
+
+
